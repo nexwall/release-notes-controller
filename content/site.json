@@ -1,0 +1,14 @@
+{
+ "host": "releasenotes-controller.nexwall.com.br",
+ "docs_url": "https://controllerdocs.nexwall.com.br",
+ "product": {
+  "en": "Nexwall Cloud Controller",
+  "es": "Nexwall Cloud Controller",
+  "pt-BR": "Nexwall Cloud Controller"
+ },
+ "lead": {
+  "en": "Release notes of the controller that manages Nexwall firewalls from the cloud.",
+  "es": "Notas de versión del controlador que gestiona los firewalls Nexwall desde la nube.",
+  "pt-BR": "Notas de versão do controller que gerencia os firewalls Nexwall pela nuvem."
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "title": "Cloud Controller 2.3.13",
+ "summary": "Firewall registration through a single public address, per-customer controller spaces and a documentation site.",
+ "items": [
+  {
+   "tag": "new",
+   "title": "Single registration address",
+   "body": "The join code and the registration answer can point to one public address, so every firewall registers at cloud.nexwall.com.br while each customer keeps its own controller host."
+  },
+  {
+   "tag": "new",
+   "title": "Controller space per customer",
+   "body": "Each partner customer has its own controller space, opened from the Partner Portal with single sign-on."
+  },
+  {
+   "tag": "new",
+   "title": "Documentation site",
+   "body": "The manual of the controller is published at controllerdocs.nexwall.com.br in English, Spanish and Portuguese, and the help button opens the page of the current screen."
+  }
+ ]
+}

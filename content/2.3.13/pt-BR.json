@@ -1,0 +1,21 @@
+{
+ "title": "Cloud Controller 2.3.13",
+ "summary": "Registro de firewalls por um único endereço público, espaços de controller por cliente e um site de documentação.",
+ "items": [
+  {
+   "tag": "new",
+   "title": "Endereço único de registro",
+   "body": "O código de adesão e a resposta de registro podem apontar para um único endereço público, de modo que todos os firewalls se registram em cloud.nexwall.com.br enquanto cada cliente mantém seu próprio host de controller."
+  },
+  {
+   "tag": "new",
+   "title": "Espaço de controller por cliente",
+   "body": "Cada cliente do parceiro tem seu próprio espaço no controller, aberto a partir do Portal de Parceiros com login único."
+  },
+  {
+   "tag": "new",
+   "title": "Site de documentação",
+   "body": "O manual do controller é publicado em controllerdocs.nexwall.com.br em inglês, espanhol e português, e o botão de ajuda abre a página da tela atual."
+  }
+ ]
+}
