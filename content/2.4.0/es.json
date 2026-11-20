@@ -1,0 +1,31 @@
+{
+ "title": "Cloud Controller 2.4.0",
+ "summary": "Pantalla de Soporte con solicitudes y Support Packets que se ejecutan en el firewall, con los resultados enviados a la solicitud.",
+ "items": [
+  {
+   "tag": "new",
+   "title": "Pantalla de Soporte",
+   "body": "Soporte en el menú abre sus solicitudes y los Support Packets en un solo lugar. Tres paneles iguales: la lista, el elemento seleccionado y la conversación con el equipo de soporte."
+  },
+  {
+   "tag": "new",
+   "title": "Support Packets en el firewall",
+   "body": "Elija un paquete en \"Seleccione Support Packet\", lea qué hace, marque la casilla de confirmación y ejecútelo en el firewall. Los resultados se entregan sin datos sensibles, se pueden descargar en un único zip (arriba a la derecha del panel) y enviar a la solicitud. Requiere Nexwall Firewall 26.2.2 o posterior; las versiones anteriores indican que los diagnósticos remotos no están disponibles."
+  },
+  {
+   "tag": "new",
+   "title": "Lista completa de paquetes",
+   "body": "Cada paquete tiene su documentación en la pantalla y un enlace a la lista completa en support.nexwall.com.br, en la pestaña Support Packets."
+  },
+  {
+   "tag": "new",
+   "title": "Pegar y adjuntar en la conversación",
+   "body": "Pegue una captura de pantalla o adjunte un archivo (imágenes, PDF, logs, zip) en la conversación de la solicitud, igual que en el Partner Portal."
+  },
+  {
+   "tag": "improved",
+   "title": "Diagnósticos remotos más seguros",
+   "body": "El controlador ejecuta solo los Support Packets fijos instalados en el firewall. Nunca envía una línea de comandos libre, y cada ejecución tiene límite de tiempo, límite de salida y un registro."
+  }
+ ]
+}

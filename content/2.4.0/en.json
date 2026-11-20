@@ -1,0 +1,31 @@
+{
+ "title": "Cloud Controller 2.4.0",
+ "summary": "Support screen with tickets and Support Packets that run on the firewall, with results sent to the ticket.",
+ "items": [
+  {
+   "tag": "new",
+   "title": "Support screen",
+   "body": "Support in the menu opens your tickets and the Support Packets in one place. Three equal panels: the list, the selected item and the conversation with the support team."
+  },
+  {
+   "tag": "new",
+   "title": "Support Packets on the firewall",
+   "body": "Pick a packet under \"Select Support Packet\", read what it does, tick the confirmation box and run it on the firewall. Results are redacted, can be downloaded as one zip file (top right of the panel) and sent to the ticket. Needs Nexwall Firewall 26.2.2 or later; earlier versions say that remote diagnostics are not supported."
+  },
+  {
+   "tag": "new",
+   "title": "Full list of packets",
+   "body": "Each packet has its documentation in the screen and a link to the complete list at support.nexwall.com.br, on the Support Packets tab."
+  },
+  {
+   "tag": "new",
+   "title": "Paste and attach in the conversation",
+   "body": "Paste a screenshot or attach a file (images, PDF, logs, zip) in the ticket conversation, the same as in the Partner Portal."
+  },
+  {
+   "tag": "improved",
+   "title": "Safer remote diagnostics",
+   "body": "The controller runs only the fixed Support Packets installed on the firewall. It never sends a free command line, and each run has a time limit, an output limit and a log entry."
+  }
+ ]
+}
