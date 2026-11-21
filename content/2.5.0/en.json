@@ -1,0 +1,26 @@
+{
+  "title": "Cloud Controller 2.5.0",
+  "summary": "Language icon, maximized conversation and a clearer Support screen text.",
+  "items": [
+    {
+      "tag": "new",
+      "title": "Language icon",
+      "body": "The top bar has a language icon with the available languages. The choice applies at once and is remembered for your user."
+    },
+    {
+      "tag": "new",
+      "title": "Maximize the conversation",
+      "body": "A button on the conversation panel shows it as a large window in the center of the screen. Escape or a click outside closes it."
+    },
+    {
+      "tag": "improved",
+      "title": "Conversation opens at the newest message",
+      "body": "When a ticket opens, or a message arrives, the conversation scrolls to the last message."
+    },
+    {
+      "tag": "improved",
+      "title": "Support screen text",
+      "body": "The text explains the three levels: level 1 is handled by your reseller or distributor with the help of Nexwall's support AI; level 2 is advanced CLI diagnostics on the firewall, with AI analysis and your reseller's or distributor's team; level 3 is the Nexwall team. Everything stays in the same ticket."
+    }
+  ]
+}

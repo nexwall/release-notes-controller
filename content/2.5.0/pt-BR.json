@@ -1,0 +1,26 @@
+{
+  "title": "Cloud Controller 2.5.0",
+  "summary": "Ícone de idioma, conversa maximizada e texto mais claro na tela de Suporte.",
+  "items": [
+    {
+      "tag": "new",
+      "title": "Ícone de idioma",
+      "body": "A barra superior tem um ícone de idioma com os idiomas disponíveis. A escolha vale na hora e fica lembrada para o seu usuário."
+    },
+    {
+      "tag": "new",
+      "title": "Maximizar a conversa",
+      "body": "Um botão no painel da conversa a mostra em uma janela grande no centro da tela. Escape ou um clique fora a fecha."
+    },
+    {
+      "tag": "improved",
+      "title": "A conversa abre na mensagem mais recente",
+      "body": "Ao abrir um chamado, ou quando chega uma mensagem, a conversa rola até a última mensagem."
+    },
+    {
+      "tag": "improved",
+      "title": "Texto da tela de Suporte",
+      "body": "O texto explica os três níveis: o nível 1 é atendido pelo seu revendedor ou distribuidor com a ajuda da IA de suporte da Nexwall; o nível 2 é diagnóstico avançado por CLI no firewall, com análise da IA e a equipe do seu revendedor ou distribuidor; o nível 3 é a equipe da Nexwall. Tudo fica no mesmo chamado."
+    }
+  ]
+}
