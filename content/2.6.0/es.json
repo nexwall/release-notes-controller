@@ -1,0 +1,41 @@
+{
+  "title": "Cloud Controller 2.6.0",
+  "summary": "Inicio de sesión con la identidad del portal, nueva pantalla de Acceso, cambio de contraseña en el menú de usuario y menú por categorías.",
+  "items": [
+    {
+      "tag": "new",
+      "title": "Inicia sesión con tu correo del portal",
+      "body": "El inicio de sesión del controlador usa el correo y la contraseña de tu usuario del Nexwall Partner Portal (rol Controller Admin o Controller User). La verificación en dos pasos, si está activa, es la del portal. «Olvidé mi contraseña» envía un código a tu correo y luego pide una nueva contraseña."
+    },
+    {
+      "tag": "new",
+      "title": "Pantalla de Acceso",
+      "body": "Los usuarios se crean en el portal del socio. La pantalla de Acceso los lista con un botón Grupos de firewalls, el control principal: define qué grupos de firewalls puede gestionar cada usuario. Los administradores también pueden enviar una nueva contraseña temporal a un usuario."
+    },
+    {
+      "tag": "new",
+      "title": "Cambiar contraseña",
+      "body": "Cambiar contraseña pasó al menú de usuario, arriba a la derecha. Se envía un código a tu correo y luego eliges una nueva contraseña."
+    },
+    {
+      "tag": "new",
+      "title": "Columna de serie",
+      "body": "La lista de firewalls muestra el número de serie de cada firewall en su propia columna, y el filtro también encuentra firewalls por serie."
+    },
+    {
+      "tag": "improved",
+      "title": "Menú por categorías",
+      "body": "El menú se organiza en secciones como el portal: Gestión de firewalls, Análisis, Acceso y Ayuda."
+    },
+    {
+      "tag": "improved",
+      "title": "Sin límite de firewalls",
+      "body": "Los controladores creados por un socio ya no muestran ni aplican el límite de tres firewalls."
+    },
+    {
+      "tag": "changed",
+      "title": "Gestión local de usuarios",
+      "body": "Se quitaron Agregar usuario, eliminar usuario, el interruptor de administrador, la página Configuración de la cuenta, la verificación en dos pasos propia del controlador y la tarjeta de claves SSH: las identidades pertenecen al portal y los firewalls usan una clave gestionada."
+    }
+  ]
+}

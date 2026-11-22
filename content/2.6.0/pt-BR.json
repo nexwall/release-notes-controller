@@ -1,0 +1,41 @@
+{
+  "title": "Cloud Controller 2.6.0",
+  "summary": "Login com a identidade do portal, nova tela de Acesso, alteração de senha no menu do usuário e menu por categorias.",
+  "items": [
+    {
+      "tag": "new",
+      "title": "Entre com o e-mail do portal",
+      "body": "O login do controlador usa o e-mail e a senha do seu usuário do Nexwall Partner Portal (perfil Controller Admin ou Controller User). A verificação em duas etapas, quando ativa, é a do portal. «Esqueci a senha» envia um código para o seu e-mail e depois pede uma nova senha."
+    },
+    {
+      "tag": "new",
+      "title": "Tela de Acesso",
+      "body": "Os usuários são criados no portal do parceiro. A tela de Acesso os lista com um botão Grupos de firewalls, o controle principal: define quais grupos de firewalls cada usuário pode gerenciar. Administradores também podem enviar uma nova senha temporária a um usuário."
+    },
+    {
+      "tag": "new",
+      "title": "Alterar senha",
+      "body": "Alterar senha foi para o menu do usuário, no canto superior direito. Um código é enviado ao seu e-mail e depois você escolhe a nova senha."
+    },
+    {
+      "tag": "new",
+      "title": "Coluna de serial",
+      "body": "A lista de firewalls mostra o serial de cada firewall em uma coluna própria, e o filtro também encontra firewalls pelo serial."
+    },
+    {
+      "tag": "improved",
+      "title": "Menu por categorias",
+      "body": "O menu é organizado em seções como o portal: Gerenciamento de firewalls, Análises, Acesso e Ajuda."
+    },
+    {
+      "tag": "improved",
+      "title": "Sem limite de firewalls",
+      "body": "Controladores criados por um parceiro não mostram nem aplicam mais o limite de três firewalls."
+    },
+    {
+      "tag": "changed",
+      "title": "Gerenciamento local de usuários",
+      "body": "Foram removidos Adicionar usuário, excluir usuário, a chave de administrador, a página Configurações da conta, a verificação em duas etapas própria do controlador e o cartão de chaves SSH: as identidades pertencem ao portal e os firewalls usam uma chave gerenciada."
+    }
+  ]
+}

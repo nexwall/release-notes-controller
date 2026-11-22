@@ -1,5 +1,10 @@
 [
   {
+    "version": "2.6.0",
+    "date": "2026-11-21",
+    "status": "stable"
+  },
+  {
     "version": "2.5.0",
     "date": "2026-11-21",
     "status": "stable"

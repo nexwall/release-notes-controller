@@ -1,0 +1,41 @@
+{
+  "title": "Cloud Controller 2.6.0",
+  "summary": "Sign-in with your portal identity, a new Access screen, change password in the user menu and a categorized menu.",
+  "items": [
+    {
+      "tag": "new",
+      "title": "Sign in with your portal e-mail",
+      "body": "The controller sign-in uses the e-mail and password of your Nexwall Partner Portal user (role Controller Admin or Controller User). Two-step verification, when enabled, is the portal's. Forgot password sends a code to your e-mail and then asks for a new password."
+    },
+    {
+      "tag": "new",
+      "title": "Access screen",
+      "body": "Users are created in the partner portal. The Access screen lists them with a Firewall groups button, the main control: it sets which groups of firewalls each user can manage. Administrators can also send a new temporary password to a user."
+    },
+    {
+      "tag": "new",
+      "title": "Change password",
+      "body": "Change password moved to the user menu in the top right. A code is sent to your e-mail, then you choose a new password."
+    },
+    {
+      "tag": "new",
+      "title": "Serial column",
+      "body": "The Firewalls list shows the serial of each firewall in its own column, and the filter also finds firewalls by serial."
+    },
+    {
+      "tag": "improved",
+      "title": "Categorized menu",
+      "body": "The menu is organized in sections like the portal: Firewalls management, Insights, Access and Help."
+    },
+    {
+      "tag": "improved",
+      "title": "No firewall limit",
+      "body": "Controllers created by a partner no longer show or apply the three-firewall limit."
+    },
+    {
+      "tag": "changed",
+      "title": "Local user management",
+      "body": "Add user, delete user, administrator switch, the Account settings page, the controller's own two-step verification and the SSH keys card were removed: identities belong to the portal and the firewalls use a managed key."
+    }
+  ]
+}
