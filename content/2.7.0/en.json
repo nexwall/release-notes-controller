@@ -1,0 +1,11 @@
+{
+  "title": "Cloud Controller 2.7.0",
+  "summary": "A firewall checks in with the licence server right after a plan is bought.",
+  "items": [
+    {
+      "tag": "new",
+      "title": "Licence check-in on request",
+      "body": "When a plan is bought in the Partner Portal, the controller asks the firewall to check in with the licence server at once, so the new licence is active without waiting for the next scheduled check-in."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Cloud Controller 2.7.0",
+  "summary": "El firewall verifica con el servidor de licencias justo después de comprar un plan.",
+  "items": [
+    {
+      "tag": "new",
+      "title": "Verificación de licencia a pedido",
+      "body": "Cuando se compra un plan en el Portal de Socios, el controlador le pide al firewall que verifique de inmediato con el servidor de licencias, y la nueva licencia queda activa sin esperar la siguiente verificación programada."
+    }
+  ]
+}
